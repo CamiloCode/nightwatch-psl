@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="3"
+    tests="5" time="18.06" timestamp="Wed, 18 Jan 2017 16:31:51 GMT">
+  
+    <testcase name="Create a new patient" time="13.44" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Create a new doctor" time="4.624" assertions="3">
+
+    
+
+      <failure message="Failed [equal]: (&#39;Información:&#39; == &#39;Guardado:&#39;)">    at Object.&lt;anonymous&gt; (C:\nightwatch\tests\test.js:57:19)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Make a new appoinment correctly">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Make a new appoinment with wrong patient ID">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Make a new appoinment with wrong doctor ID">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
